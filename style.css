@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: rgba(45, 44, 44, 0.997);
+  color: turquoise;
+  text-align: center;
+}
+
+#title {
+  font-family: "Quicksand", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: turquoise;
+  width: 100%; /* Change width to 100% to fill the container */
+  max-width: 1000px; /* Set a maximum width */
+  margin: 0 auto; /* Center the title horizontally */
+  height: 200px;
+  display: flex; /* Use flexbox for vertical centering */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+}
+
+.dropdown {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+}
+
+#subTitle {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+  color: turquoise;
+}
+
+#answer {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+}
+
+#quotePara {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+div img {
+  width: 600px;
+  height: 400px; 
+  align-items: center;
+  justify-content: center;
+}
+
+#banner {
+  width: 100%;
+  max-width: 1000px; /* Set a maximum width */
+  height: 200px;
+  margin-right: 20px;
+  margin-left: 20px;
+  align-items: center;
+}
+
+
+#nav {
+background-color: black;
+
+} 
+#divBanner{
+  background-color: black;
+  width: 1000px;height: 200px;
+  margin-right: 20px;
+  margin-left: 400px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  justify-content: center;
+}
